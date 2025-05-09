@@ -12,6 +12,12 @@ The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. They are d
 *No prior programming experience required. However, many workshops will operate under the assumption that a python programming environment is installed - if you do not already have one set up, consider coming to the first workshop on Day 1 so we can help you do so.*
 
 
+![Students working on robots in a lab](images/robots_lab.jpg)
+
+
+## Register 
+You can register for the workshops [here](https://uidaho.co1.qualtrics.com/jfe/form/SV_9yKoctF7KbA4dYa) or by scanning the QR code below. Space is limited, so register early!
+
 ![Registration QR Code](images/qr_registration.png)
 
 *Please note in the registration if you plan to attend any of the workshops only via Zoom. A zoom link will be emailed to the email address provided in the form.* 
@@ -73,9 +79,6 @@ The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. They are d
 |6/13/25|12:45pm - 1:20pm| Lunch | | | |
 |6/13/25|1:20pm - 3:10pm|Neural Networks|  Participants will learn how basic neural networks work, and hoe neural networks are the broad family of many popular deep learning techniques. Participants will implement a neural network using the Keras library.     |Yes|
 |6/13/25|3:10pm - 5:00pm|Explainable AI, Large Models, and Beyond | Participants will learn about concerns for explainable AI, how large language models and transformers work, and current state-of-the-art research and future directions in AI.      |Yes|
-
-## Register 
-You can register for the workshops [here](https://uidaho.co1.qualtrics.com/jfe/form/SV_9yKoctF7KbA4dYa) or by scanning the QR code below. Space is limited, so register early!
 
 
 [![Logo for UI-CS](images/UI_CS_CDA.jpg)](https://www.uidaho.edu/engr/programs/robotics/industrial-robotics)
