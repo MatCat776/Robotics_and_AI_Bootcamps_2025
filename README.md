@@ -11,6 +11,17 @@ The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. All will b
 
 *No prior programming experience required. However, many workshops will operate under the assumption that a python programming environment is installed - if you do not already have one set up, consider coming to the first workshop on Day 1 so we can help you do so.*
 
+
+## Schedule and Descriptions
+
+## Register 
+You can register for the workshops here or by scanning the QR code below. Space is limited, so register early!
+
+
+[![Logo for UI-CS](images/UI_CS_CDA.png)](https://www.uidaho.edu/engr/programs/robotics/industrial-robotics)
+
+
+
 ## Sponsors
 Our main sponsor is Idaho Forest Group, who is generously providing lunch every day of the bootcamp. Thank you IFG! 
 
@@ -25,11 +36,6 @@ Content for the workshop is additionally supported by the following partner orga
 [![Logo for NIMA](images/Nima_logo.png)](https://nimalliance.org/)
 
 
-
-## Schedule and Descriptions
-
-## Register 
-You can register for the workshops here or by scanning the QR code below. Space is limited, so register early!
 
 ## Location 
 Hedlund Building Room 202
