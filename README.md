@@ -88,7 +88,7 @@ Our main sponsor is Idaho Forest Group, who is generously providing lunch every 
 ### Content Sponsors
 Content for the workshop is additionally supported by the following partner organizations: 
 
-[![Logo for ISGC](images/ISGC_Logo.png)](https://www.nic.edu/)
+[![Logo for ISGC](images/ISGC_Logo.png)](https://www.idahospacegrant.org/)
 
 [![Logo for NIC](images/NIC_logo_1.png)](https://www.nic.edu/)
 
