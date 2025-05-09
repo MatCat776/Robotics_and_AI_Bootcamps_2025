@@ -1,7 +1,7 @@
 # Robotics and AI Bootcamps 2025
 Welceome to the 2025 Robotics and AI Bootcamps hosted by the Center for Intelligent Industrial Robotics at the University of Idaho!
 
-![Students pressing an HMI button wired to a PLC](images/bootcamp.png))
+![Students pressing an HMI button wired to a PLC](images/bootcamp.jpg)
 
 
 ## About
