@@ -1,6 +1,8 @@
 # Robotics and AI Bootcamps 2025
 Welceome to the 2025 Robotics and AI Bootcamps hosted by the Center for Intelligent Industrial Robotics at the University of Idaho!
 
+![Students pressing an HMI button wired to a PLC](images/bootcamp.png))
+
 
 ## About
 The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. All will be offered in-person in the Hedlund Building (2nd floor) on the North Idaho College campus in Coeur d'Alene, Idaho. Topics covered include Robotics, Embedded Systems, Data Science, and AI. Workshops will take place 9am-5pm in 2 or 4 hour blocks, with a break for (free!) lunch each day. Space is limited, so register early! You need not register for all days or all workshops on each day - feel free to attend those most interesting to you. 
