@@ -65,7 +65,9 @@ The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. All will b
 |6/13/25|3:10pm - 5:00pm|Explainable AI, Large Models, and Beyond | Participants will learn about concerns for explainable AI, how large language models and transformers work, and current state-of-the-art research and future directions in AI.      |Yes|
 
 ## Register 
-You can register for the workshops here or by scanning the QR code below. Space is limited, so register early!
+You can register for the workshops [here](https://uidaho.co1.qualtrics.com/jfe/form/SV_9yKoctF7KbA4dYa) or by scanning the QR code below. Space is limited, so register early!
+
+![Registration QR Code](images/qr_registration.png)
 
 *Please note in the registration if you plan to attend any of the workshops only via Zoom. A zoom link will be emailed to the email address provided in the form.* 
 
@@ -79,6 +81,7 @@ You can register for the workshops here or by scanning the QR code below. Space 
 ## Sponsors
 Our main sponsor is Idaho Forest Group, who is generously providing lunch every day of the bootcamp. Thank you IFG! 
 
+[![Logo for IFG](images/IFG_Logo.png)](https://www.nic.edu/)
 
 ### Content Sponsors
 Content for the workshop is additionally supported by the following partner organizations: 
