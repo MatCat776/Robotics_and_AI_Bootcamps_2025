@@ -81,7 +81,7 @@ You can register for the workshops [here](https://uidaho.co1.qualtrics.com/jfe/f
 ## Sponsors
 Our main sponsor is Idaho Forest Group, who is generously providing lunch every day of the bootcamp. Thank you IFG! 
 
-[![Logo for IFG](images/IFG_Logo.png)](https://www.nic.edu/)
+[![Logo for IFG](images/IFG_Logo.png)](https://ifg.com/)
 
 ### Content Sponsors
 Content for the workshop is additionally supported by the following partner organizations: 
