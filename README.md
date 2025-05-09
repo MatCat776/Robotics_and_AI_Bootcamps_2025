@@ -12,6 +12,14 @@ The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. They are d
 *No prior programming experience required. However, many workshops will operate under the assumption that a python programming environment is installed - if you do not already have one set up, consider coming to the first workshop on Day 1 so we can help you do so.*
 
 
+![Registration QR Code](images/qr_registration.png)
+
+*Please note in the registration if you plan to attend any of the workshops only via Zoom. A zoom link will be emailed to the email address provided in the form.* 
+
+*Zoom is not available for all workshops. Most workshops with a physical lab component do not have a zoom session.*
+
+
+
 
 ## Schedule and Descriptions
 
@@ -69,12 +77,6 @@ The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. They are d
 ## Register 
 You can register for the workshops [here](https://uidaho.co1.qualtrics.com/jfe/form/SV_9yKoctF7KbA4dYa) or by scanning the QR code below. Space is limited, so register early!
 
-![Registration QR Code](images/qr_registration.png)
-
-*Please note in the registration if you plan to attend any of the workshops only via Zoom. A zoom link will be emailed to the email address provided in the form.* 
-
-*Zoom is not available for all workshops. Most workshops with a physical lab component do not have a zoom session.*
-
 
 [![Logo for UI-CS](images/UI_CS_CDA.jpg)](https://www.uidaho.edu/engr/programs/robotics/industrial-robotics)
 
@@ -88,16 +90,12 @@ Our main sponsor is Idaho Forest Group, who is generously providing lunch every 
 ### Content Sponsors
 Content for the workshop is additionally supported by the following partner organizations: 
 
-[![Logo for ISGC](images/ISGC_Logo.png)](https://www.idahospacegrant.org/)
-
-[![Logo for NIC](images/NIC_logo_1.png)](https://www.nic.edu/)
-
-
-[![Logo for TechHelp](images/tech-help-logo-large.png)](https://www.techhelp.org/)
-
-
-[![Logo for NIMA](images/Nima_logo.png)](https://nimalliance.org/)
-
+| Content Sponsors | 
+| :----: |
+|[![Logo for ISGC](images/ISGC_Logo.png)](https://www.idahospacegrant.org/)|
+|[![Logo for NIC](images/NIC_logo_1.png)](https://www.nic.edu/)|
+|[![Logo for TechHelp](images/tech-help-logo-large.png)](https://www.techhelp.org/)|
+|[![Logo for NIMA](images/Nima_logo.png)](https://nimalliance.org/)|
 
 
 ## Location 
