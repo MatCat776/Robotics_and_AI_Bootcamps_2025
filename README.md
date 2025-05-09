@@ -1,11 +1,11 @@
 # Robotics and AI Bootcamps 2025
-Welceome to the 2025 Robotics and AI Bootcamps hosted by the Center for Intelligent Industrial Robotics at the University of Idaho!
+Welceome to the FREE 2025 Robotics and AI Bootcamps hosted by the Center for Intelligent Industrial Robotics at the University of Idaho!
 
 ![Students pressing an HMI button wired to a PLC](images/bootcamp.jpg)
 
 
 ## About
-The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. All will be offered in-person in the Hedlund Building (2nd floor) on the North Idaho College campus in Coeur d'Alene, Idaho. Topics covered include Robotics, Embedded Systems, Data Science, and AI. Workshops will take place 9am-5pm in 2 or 4 hour blocks, with a break for (free!) lunch each day. Space is limited, so register early! You need not register for all days or all workshops on each day - feel free to attend those most interesting to you. 
+The 2025 Robotics and AI Bootcamps will take place June 9-13th, 2025. They are designed for adults ages 18+. All will be offered in-person in the Hedlund Building (2nd floor) on the North Idaho College campus in Coeur d'Alene, Idaho. Topics covered include Robotics, Embedded Systems, Data Science, and AI. Workshops will take place 9am-5pm in 2 or 4 hour blocks, with a break for (free!) lunch each day. Space is limited, so register early! You need not register for all days or all workshops on each day - feel free to attend those most interesting to you. 
 
 *All workshops require a laptop computer. If you do not have a laptop, please contact us ASAP to see if there is one available for use*
 
@@ -76,7 +76,7 @@ You can register for the workshops [here](https://uidaho.co1.qualtrics.com/jfe/f
 *Zoom is not available for all workshops. Most workshops with a physical lab component do not have a zoom session.*
 
 
-[![Logo for UI-CS](images/UI_CS_CDA.png)](https://www.uidaho.edu/engr/programs/robotics/industrial-robotics)
+[![Logo for UI-CS](images/UI_CS_CDA.jpg)](https://www.uidaho.edu/engr/programs/robotics/industrial-robotics)
 
 
 
@@ -90,7 +90,9 @@ Content for the workshop is additionally supported by the following partner orga
 
 [![Logo for NIC](images/NIC_logo_1.png)](https://www.nic.edu/)
 
+
 [![Logo for TechHelp](images/tech-help-logo-large.png)](https://www.techhelp.org/)
+
 
 [![Logo for NIMA](images/Nima_logo.png)](https://nimalliance.org/)
 
