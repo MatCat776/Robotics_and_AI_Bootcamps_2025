@@ -142,5 +142,148 @@ Whew! Lets move on to installing python. We will start with the installing Pytho
 
 ## How Do I Install Python on my Computer?
 
-Common Mistakes to Avoid
-Where to Go Next 
+### Native Installation
+You can install python directly on your computer with some systems. If you have a linux OS (Ubuntu is a 'flavor' or linux, as well as Arch, RedHat, PopOS, and many others) you can download the python software directly onto your machine. For these sets of workshops, you will likely want a version of Python3 greater than 3.10 to make sure systems are compatible. Most modern python installations will meet or exceed that version by default. If you have a linux machine, you may already have Python installed (most Raspberry Pi OS's come with it natively.)
+
+To check if you have python already installed (on a Linux machine), you can open a terminal window and type:
+
+```bash
+    python3 --version
+```
+
+or 
+
+```bash
+    python --version 
+```
+
+This should print out a version number, if the software is already installed. If not, you will probably get a "command python3 not found" message or something similar. 
+
+For this workshop, we are going to focus mostly on creating a python installation via the Anaconda software, since this creates **virtual environments** for you to play around with python. 
+
+A **virtual environment** installs packages and software in a standalone way that doesn't interfere with the base software installed on your computer. The advantage of a virtual environment comes from the fact that if you mess up installing some software or dependencies, you won't screw up your whole system. You can also try different installation versions of software in different virtual environments if need be. The disadvantages include more overhead to activate and manage different virtual environments, and sometimes (depending on the type of virtual environment you are using) unavailability of certain packages. 
+
+If you want to do a **base native install**, however, we will link some tutorials for that. On linux, this is fairly straightforward. On Windows, it is less straightforward - however, on most modern Windows computers you can install **WSL** -- The **W**indows **S**ubsystem for **L**inux. This gives you a Linux-like interface right on your Windows machine! It has some additional considerations for finding files and managing external devices, however, so be aware. 
+
+
+1. [Here is a guide for installing python on Windows using WSL as the terminal interface and VS Code as the IDE](https://learn.microsoft.com/en-us/windows/python/web-frameworks)
+
+2. [Here is a guide with a couple of different options for installing python on Ubuntu](https://www.cherryservers.com/blog/install-python-on-ubuntu)
+
+
+If you are planning to do a LOT of programming the future, I would recommend considering getting some sort of Linux environment set up. This could be via a Dual Boot or something similar (I completely imaged my machine and use Ubuntu every day. I love my Ubuntu laptop. However, I didn't image it perfectly and lost access to an SSD. User beware.)
+
+
+For the purpose of this camp, we are going to mainly focus on this guide:
+
+[Installing Python via Anaconda for Windows with VSCode as Your IDE](Install_Anaconda_Windows.md)
+
+If you are having trouble with the installation, one way to quickly get up and going is by using Google Colab. In that case, you can follow [this externally linked guide to using Google Colab](https://www.marqo.ai/blog/getting-started-with-google-colab-a-beginners-guide)
+
+
+## What are Python Packages and How do I Install Them?
+
+If you want to build a car, you might start with a frame, maybe some tires, and an engine -- but you would probably buy these things to assemble into your car. You probably won't start mining the precious metals you need to make the car components. 
+
+Python packages are pieces of pre-assembled code that you can fit into your own programs. These usually take the form of **function** calls (functions take inputs, perform operations, and give you back an output, typically) and/or **classes** (collections of functions and variables in a structured format) that are take a lot of the headaches out of doing programming. One of the reasons python is such a popular language is because many programmers have developed for it by writing large collections of useful packagaes or libraries. 
+
+You have to import python packages into your code file to be able to use the pieces of code inside the packages. But before you can import a library into your programming script file, you first must install the library. 
+
+If you are using conda, this will usually take the form of:
+```bash
+    conda install <package_name>
+```
+where "package_name" is the name of the library you are trying to install. 
+
+If you have a more native linux-like environment, you will either run 
+
+```bash
+    pip install <package_name>
+```
+or 
+
+```bash
+    pip3 install <package_name>
+```
+
+Interesting note - "python" for a long time meant python2, where the more modern version (Python3, which we are using today) was referenced by "python3". Now, many systems default to using the word "python" for python3 -- so which one you use depends on your installation. pip is the package manager for native python distributions (which you may need to install on your system first) where conda install is the package management command for anaconda. like python/python3, you may use pip or pip3 depending on your installation. Heads up, if both are installed, this can get confusing. 
+
+If you are using Google Colab, many of the packages you would want to use already come pre-installed. If, however, you need something else, you can use the pip command with a % sign in front of it directly inside the python script code cell, for example 
+
+    %pip install <package_name>
+
+When you import a package into a code file, you type 
+
+    import <package_name>
+
+Calling a function, classes, or other object inside the package library uses the dot notation. For example
+
+    <package_name>.<function_I_want>
+
+calls the "function I want" function on the "package_name" package. 
+
+You have to use the package name in front of each object you want to access inside the package. If the package name is really long, this can get annoying. You can rename the package name on import if you want by typing 
+
+    import <package_name> as <short_name>
+
+after which, you could run:
+    
+    <short_name>.<function_I_want>
+
+There is more to imports than this, and ways you can restrict what you want to import if a package is really large, but we won't go into it much for this workshop. 
+
+
+
+## How do I Start Programming in Python? 
+Let's make a really simple python program. Open up a blank python file and name it something like "learn.py". Type:
+
+    variable = 0
+    for i in range(0, 10):
+        print(variable)
+        variable += 1
+    if variable > 5:
+        print("Variable is larger than 5")
+    else:
+        print("Variable smaller than or equal to 5")
+    variable = variable - 2
+    print(variable)
+
+and run the program using 
+
+```bash
+    python learn.py
+``` 
+You should get output that looks like: 
+
+```bash
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Variable is larger than 5
+8
+```
+The first line creates a variable (named variable) and assigns it a value of 0. Then a loop starts, which creates another variable i, and wants the code to execute the lines indented below it for the values of i between 0 and 9 (range doesn't include the value 10). Each time, it prints the variable, then adds a value of 1 to its existing value. After that loop, the code checks the value of variable. It prints one thing if variable is great than 5, and another if it is less than or equal to 5. Finally, 2 is subtracted from variable, and the value is printed once more. 
+
+## Common Mistakes to Avoid
+Don't name your python file the same name as a library you plan to import. Python will get confused and will likely not import the library correctly (or say it can't find the file)
+
+Indentation matters in python. If code it not indented correctly, you will get errors. 
+
+Some loops in python include the last number article provided and some do not. You will probably have to look up which do and which don't. 
+
+Some objects are copied when assigned to new variables and some are not. If something is behaving oddly in the code, it might be because your code was acting on the original object and not a copy of it. Be especially aware with list and dictionary objects. 
+
+## Where to Go Next 
+Some packages we will be using in future workshops you may want to install:
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- opencv (this one can sometimes cause issues in conda, so be aware. You may want to use Google Colab)
