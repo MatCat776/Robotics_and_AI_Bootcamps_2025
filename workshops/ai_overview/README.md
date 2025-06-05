@@ -62,6 +62,8 @@ There are many a taxonomy out there. Here's how I keep like to sort things, pers
 
 ## Overview of some AI models 
 
+## Concepts Specific to Machine Learning 
+
 ## One of the most important elements of machine learning - Gradient Descent 
 
 
