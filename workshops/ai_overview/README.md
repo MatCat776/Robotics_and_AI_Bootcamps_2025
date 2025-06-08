@@ -62,17 +62,41 @@ There are many a taxonomy out there. Here's how I keep like to sort things, pers
 
 ## Overview of some AI models 
 
-## Concepts Specific to Machine Learning 
+Presentation 
+
+## Concepts in Machine Learning 
+- Data 
+    - What's included
+    - What's important 
+    - How are things formatted 
+- Dataset
+    - Input Feature(s)
+    - Output Feature(s)
+    - Training, Validation, and Test Sets 
+- Model 
+    - Accuracy/Loss
+    - Loss Function 
+    - Learned Parameters
+    - Set Parameters 
+
 
 ## One of the most important elements of machine learning - Gradient Descent 
 
 
-
 ## AI Coding Environments 
+- Can mostly run a more basic model on your own machine
+- I recommend sci-kit learn 
+- Can be difficult with Neural Networks
+    - NVIDIA Graphics Card
+    - CUDA installation Needs
+    - Can use an OS with more support (PopOS)
 
 ### Machine Learning Hardware Needs 
+- Neural Networks: GPUs or TPUs
+- "Traditional" Machine Learning Models - CPU
 
 ### Google Colab 
+- [External Linked Setup Guide]((https://www.marqo.ai/blog/getting-started-with-google-colab-a-beginners-guide))
 
 ## AI Ethics
 
