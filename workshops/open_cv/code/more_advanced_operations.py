@@ -34,13 +34,13 @@ def preprocess_img(img):
 
 
 
-#Threshold
-def do_something(img):
-    #Preprocess img
-    img = preprocess_img(img)
-    #white is 255, black is 0
-    ret, thresh_img = cv2.threshold(img, 100, 255, cv2.THRESH_BINARY)
-    return thresh_img
+# #Threshold
+# def do_something(img):
+#     #Preprocess img
+#     img = preprocess_img(img)
+#     #white is 255, black is 0
+#     ret, thresh_img = cv2.threshold(img, 100, 255, cv2.THRESH_BINARY)
+#     return thresh_img
 
 # #Gradient
 # def do_something(img):
@@ -61,19 +61,19 @@ def do_something(img):
 #     return img
 
 
-# #Edge Detection and Contours
-# def do_something(img):
-#     #Preprocess img
-#     normal_img = img.copy()
-#     img = preprocess_img(img)
-#     img = cv2.Canny(img, 50, 200)
-#     #Contours
-#     contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-#     for single_contour in contours:
-#         moments = cv2.moments(single_contour)
-#     og_img = normal_img.copy()
-#     cv2.drawContours(og_img, contours, -1, (0,0,255), 3)
-#     return og_img
+#Edge Detection and Contours
+def do_something(img):
+    #Preprocess img
+    normal_img = img.copy()
+    img = preprocess_img(img)
+    img = cv2.Canny(img, 50, 200)
+    #Contours
+    contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    for single_contour in contours:
+        moments = cv2.moments(single_contour)
+    og_img = normal_img.copy()
+    cv2.drawContours(og_img, contours, -1, (0,0,255), 3)
+    return og_img
 
 
 run_program()
