@@ -11,7 +11,7 @@ model = YOLO("best.pt")
 cap = cv2.VideoCapture(0)
 
 key = ord("r")
-# Loop through the video frames
+# Loop through the video framess
 while key != ord("s"):
     # Read a frame from the video
     success, frame = cap.read()
@@ -25,4 +25,4 @@ while key != ord("s"):
 
         # Display the annotated frame
         cv2.imshow("YOLOv8 Inference", annotated_frame)
-        key = cv2.waitKey(5)
+        key = cv2.waitKey(100)

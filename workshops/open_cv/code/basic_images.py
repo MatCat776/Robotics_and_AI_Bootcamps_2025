@@ -8,7 +8,7 @@ def show_img(img_to_show):
     plt.clf()
 
 #Read in an image
-img = cv2.imread('images/jellyfish.jpg')
+img = cv2.imread('workshops/open_cv/code/images/jellyfish.jpg')
 
 #Get the blue intensity of pixel 40,40
 print(img[40, 40, 0])

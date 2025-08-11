@@ -4,7 +4,8 @@ import pandas as pd
 import random 
 import numpy as np 
 import datetime 
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+
 
 #Timeseries reference: https://pandas.pydata.org/docs/user_guide/timeseries.html 
 #Timestamp reference: https://pandas.pydata.org/docs/reference/api/pandas.Timestamp.html 
@@ -115,8 +116,9 @@ new_df = new_df.rename(columns={"reading": "s4_mean"})
 merge_options = [s2_min, s2_max, s2_mean, s3_min, s3_max, s3_mean, s4_min, s4_max]
 merge_names = ["s2_min", "s2_max", "s2_mean", "s3_min", "s3_max", "s3_mean", "s4_min", "s4_max"]
 
-for i in range(0, len(merge_options)):
-    sub_df = merge_options[i]
+#for i in range(0, len(merge_options)):
+for i in [2,5]:
+    sub_df: object = merge_options[i]
     #Added
     sub_df.fillna(method="bfill", inplace=True)
     sub_df.fillna(method="ffill",inplace=True)

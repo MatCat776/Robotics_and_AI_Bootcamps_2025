@@ -11,7 +11,7 @@
 #Import the pandas dataset 
 import pandas as pd 
 import matplotlib.pyplot as plt 
-import seaborn as sns 
+#import seaborn
 
 
 #Read the dataset into the "wine_df" variable
@@ -117,10 +117,13 @@ print(cleaned_df.loc[0, "quality"])
 
 
 
-#Visualize 
+#Visualize
+plt.scatter(wine_df["alcohol"],wine_df["quality"])
+plt.title("alcohol vs quality")
+
 #Correlation
 print(wine_df.corr())
-plot = sns.heatmap(wine_df.corr()) 
+plot = seaborn.heatmap(wine_df.corr())
 plt.show()
 plt.clf()
 
